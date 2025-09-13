@@ -1,0 +1,4 @@
+package se.iths.linawei.methodandarrays;
+
+public class Metod {
+}
