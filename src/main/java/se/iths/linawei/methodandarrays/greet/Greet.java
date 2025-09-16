@@ -1,7 +1,7 @@
-package se.iths.linawei.methodandarrays;
+package se.iths.linawei.methodandarrays.greet;
 
 
-public class Metod {
+public class Greet {
     public static String [] greet (){
 
         String [] greeting = new String [3];
@@ -17,8 +17,4 @@ public class Metod {
 
     }
 
-    public static void main(String[] args) {
-        System.out.print("Lina säger: ");
-        greet();
-    }
 }
