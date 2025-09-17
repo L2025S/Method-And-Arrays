@@ -1,10 +1,12 @@
 package se.iths.linawei.methodandarrays;
 
+// Skapar en metod som tar emot två String-parametrar ( firstname och lastname)
 public class Metod {
     public static void printWholeName (String firstName, String lastName) {
         System.out.println(firstName + " " + lastName);
     }
 
+    // Skapar en metod som hittar max-talet i en heltalsarray.
     public static void greet (String [] greeting){
 
         greeting = new String [3];
@@ -14,6 +16,7 @@ public class Metod {
         }
     }
 
+    // Skapar en metod som tar emot två double-parametrar.
     public static double isBigger (double a, double b) {
         double bigger;
         if (a > b) {
@@ -24,6 +27,7 @@ public class Metod {
         return bigger;
     }
 
+    // Skapar en metod som hittar max-talet i en heltalsarray.
     public static int findMaxValue (int[ ] numbers) {
 
         int maxValue = numbers[0];
