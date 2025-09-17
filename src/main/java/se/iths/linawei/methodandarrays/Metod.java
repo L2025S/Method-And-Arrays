@@ -5,12 +5,9 @@ public class Metod {
         System.out.println(firstName + " " + lastName);
     }
 
-    public static void greet (){
+    public static void greet (String [] greeting){
 
-        String [] greeting = new String [3];
-        greeting[0] = "Hello";
-        greeting[1] = "World";
-        greeting[2] = "!";
+        greeting = new String [3];
 
         for (int i =0; i < greeting.length; i++) {
             System.out.print(greeting[i] + " ");
@@ -28,9 +25,6 @@ public class Metod {
     }
 
     public static int findMaxValue (int[ ] numbers) {
-        if ( numbers == null || numbers.length == 0 ){
-            throw new IllegalArgumentException("Array cannot be null or empty!");
-        }
 
         int maxValue = numbers[0];
         for (int j = 1; j < numbers.length; j++) {
@@ -40,10 +34,5 @@ public class Metod {
         }
         return maxValue;
     }
-
-
-
-
-
 
 }

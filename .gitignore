@@ -37,7 +37,7 @@ build/
 .vscode/
 
 ### Mac OS ###
-.DS_Stor
+.DS_Store
 .pub
 .ssh
 
